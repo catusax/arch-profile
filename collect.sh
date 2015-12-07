@@ -1,9 +1,9 @@
 #!/bin/bash
 ######################################################
 #bash配置
-cp ~/.bashrc ./bash/
+mkdir -p ${PWD}/bash/ && cp ~/.bashrc ${PWD}/bash/
 #vim配置
-cp /etc/vimrc ./vim/
+mkdir -p ${PWD}/vim/ && cp /etc/vimrc ${PWD}/vim/
 #pacman配置
-cp /etc/pacman.d/mirrorlist ./pacman/
-cp /etc/pacman.conf ./pacman/
+mkdir -p ${PWD}/pacman/ && cp /etc/pacman.d/mirrorlist ${PWD}/pacman/
+cp /etc/pacman.conf ${PWD}/pacman/
