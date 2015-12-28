@@ -11,4 +11,4 @@ PS1='[\u@\h \W]\$ '
   export XMODIFIERS=@im=ibus
   export QT_IM_MODULE=ibus
 screenfetch
-alias man='man -M /usr/local/zhman/share/man/zh_CN'
+alias cman='man -M /usr/local/zhman/share/man/zh_CN'
