@@ -12,3 +12,4 @@ PS1='[\u@\h \W]\$ '
   export QT_IM_MODULE=ibus
 screenfetch
 alias cman='man -M /usr/local/zhman/share/man/zh_CN'
+alias lsa='ls -a --color=auto'
