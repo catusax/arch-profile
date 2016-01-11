@@ -13,3 +13,4 @@ PS1='[\u@\h \W]\$ '
 screenfetch
 alias cman='man -M /usr/local/zhman/share/man/zh_CN'
 alias lsa='ls -a --color=auto'
+alias grep='grep --color=auto'
