@@ -7,10 +7,21 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-  export GTK_IM_MODULE=ibus
-  export XMODIFIERS=@im=ibus
-  export QT_IM_MODULE=ibus
+
+export VISUAL="vim"
+
+export GTK_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export QT_IM_MODULE=fcitx
+
 screenfetch
+
 alias cman='man -M /usr/local/zhman/share/man/zh_CN'
 alias lsa='ls -a --color=auto'
 alias grep='grep --color=auto'
+alias vi='vim'
+alias sshvps='ssh -p 31405 root@216.189.159.243'
+
+#bash历史补全
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
