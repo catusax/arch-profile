@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ "$1" == "start" ]; then
+    read -p "输入端口号(default 443):" port
+	echo "可选的加密方式:aes-256-cfb: 默认加密方式 aes-128-cfb aes-192-cfb aes-256-ofb aes-128-ofb aes-192-ofb aes-128-ctr aes-192-ctr aes-256-ctr aes-128-cfb8 aes-192-cfb8 aes-256-cfb8 aes-128-cfb1 aes-192-cfb1 aes-256-cfb1 bf-cfb camellia-128-cfb camellia-192-cfb camellia-256-cfb cast5-cfb chacha20 idea-cfb rc2-cfb rc4-md5 salsa20 seed-cfb"
+    read -p "输入加密方式:" method
+    read -p "输入密码:" pass
+    if [ "$port" == "" ]; then
+        port=443
+    fi
+    if [ "$method" == "" ]; then
+        method=aes-256-cfb
+    fi
+    sudo ssserver -p "$port" -k "$pass" -m "$method" --user nobody -d start
+
+elif [ "$1" == "stop" ]; then
+    sudo ssserver -d stop
+
+elif [ "$1" == "log" ]; then
+    sudo less /var/log/shadowsocks.log
+
+fi
