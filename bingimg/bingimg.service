@@ -1,0 +1,12 @@
+[Unit] 
+Description=Bingimg Service 
+
+[Service] 
+Type=simple 
+ExecStart=/usr/bin/bingimg 
+KillSignal=SIGINT 
+Restart=always 
+Restart=on-failure 
+RestartSec=5
+[Install] 
+WantedBy=multi-user.target
