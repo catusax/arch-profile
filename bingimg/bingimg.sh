@@ -15,8 +15,8 @@ if [ ! -f ~/图片/bingimg/${mouth}/${date}***.jpg ];then
     text1=`grep -o -P "(?<=copyright\":\").*(?=\ \(©)" ~/.bingimg`
     text=`echo $text1 | sed s/[[:space:]]//g`
     
-    GET=`wget -t 10 -O  ~/图片/bingimg/${mouth}/${date}-${text}.jpg "${imgurl}" 2>&1 | grep 100`
-    if [ "${GET}" = "100" ];then
+    GET=`wget -t 10 -O  ~/图片/bingimg/${mouth}/${date}-${text}.jpg "${imgurl}" 2>&1 | grep -o "100\%"`
+    if [ "${GET}" = "100%" ];then
         gsettings set org.gnome.desktop.background picture-uri ~/图片/bingimg/${mouth}/${date}-${text}.jpg
     else
         rm ~/图片/bingimg/${date}***
