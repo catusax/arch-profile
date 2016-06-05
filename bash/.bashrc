@@ -20,7 +20,7 @@ alias cman='man -M /usr/local/zhman/share/man/zh_CN'
 alias lsa='ls -a --color=auto'
 alias grep='grep --color=auto'
 alias vi='vim'
-alias sshvps='ssh -p 31405 root@216.189.159.243'
+alias sshvps='ssh -p 17847 root@216.189.159.243'
 
 #bash历史补全
 bind '"\e[A": history-search-backward'
