@@ -1,0 +1,14 @@
+#!/bin/env bash
+cd ~/arch-profile/pcap-dnsproxy
+#cat "" >  Hosts.conf
+cat <<EOF>Hosts.conf
+[Local Hosts]
+
+Server=/github.com/119.29.29.29#53
+
+[Hosts]
+
+EOF
+curl https://raw.githubusercontent.com/racaljk/hosts/master/hosts >> Hosts.conf
+
+sudo cp Hosts.conf /etc/pcap-dnsproxy/Hosts.conf
