@@ -10,5 +10,6 @@ Server=/github.com/119.29.29.29#53
 
 EOF
 curl https://raw.githubusercontent.com/racaljk/hosts/master/hosts >> Hosts.conf
+curl https://raw.githubusercontent.com/vokins/yhosts/master/hosts >> Hosts.conf
 
 sudo cp Hosts.conf /etc/pcap-dnsproxy/Hosts.conf
