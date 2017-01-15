@@ -9,7 +9,12 @@ Server=/github.com/119.29.29.29#53
 [Hosts]
 
 EOF
-curl https://raw.githubusercontent.com/racaljk/hosts/master/hosts >> Hosts.conf
-curl https://raw.githubusercontent.com/vokins/yhosts/master/hosts >> Hosts.conf
-
+curl https://raw.githubusercontent.com/vokins/yhosts/master/hosts >> adhosts
+perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
+perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
+perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
+perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
+perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
+cat myhosts >> Hosts.conf
+cat adhosts >> Hosts.conf
 sudo cp Hosts.conf /etc/pcap-dnsproxy/Hosts.conf
