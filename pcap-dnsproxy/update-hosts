@@ -10,11 +10,13 @@ Server=/github.com/119.29.29.29#53
 
 EOF
 curl https://raw.githubusercontent.com/vokins/yhosts/master/hosts >> adhosts
-perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
-perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
-perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
-perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
-perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' adhosts
-cat myhosts >> Hosts.conf
-cat adhosts >> Hosts.conf
+sed -i 's/\ /\t/g' adhosts
+sed -i 's/\t\t/\t/g' adhosts
+#space to tab
+./hosts2conf
+#. to \.
+grep ^[^#] myhosts >> Hosts.conf
+grep ^[^#] adhosts >> Hosts.conf
+rm adhosts
+#do not output lines starts with #
 sudo cp Hosts.conf /etc/pcap-dnsproxy/Hosts.conf

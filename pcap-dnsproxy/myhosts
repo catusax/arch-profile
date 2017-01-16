@@ -7,26 +7,26 @@
 # Amazon AWS Start
 54.239.31.69	aws\.amazon\.com
 54.239.30.25	console\.aws\.amazon\.com
-54.239.96.90	ap-northeast-1.console\.aws\.amazon\.com
-54.240.226.81	ap-southeast-1.console\.aws\.amazon\.com
-54.240.193.125	ap-southeast-2.console\.aws\.amazon\.com
-54.239.38.102	eu-west-1.console\.aws\.amazon\.com
-54.239.54.102	eu-central-1.console\.aws\.amazon\.com
-54.231.49.3	s3.amazonaws\.com
+54.239.96.90	ap-northeast-1\.console\.aws\.amazon\.com
+54.240.226.81	ap-southeast-1\.console\.aws\.amazon\.com
+54.240.193.125	ap-southeast-2\.console\.aws\.amazon\.com
+54.239.38.102	eu-west-1\.console\.aws\.amazon\.com
+54.239.54.102	eu-central-1\.console\.aws\.amazon\.com
+54.231.49.3	s3\.amazonaws\.com
 54.239.31.128	s3-console-us-standard\.console\.aws\.amazon\.com
-52.219.0.4	s3-ap-northeast-1.amazonaws\.com
-54.231.242.170	s3-ap-southeast-1.amazonaws\.com
-54.231.251.21	s3-ap-southeast-2.amazonaws\.com
-52.218.16.140	s3-eu-west-1.amazonaws\.com
-54.231.193.37	s3-eu-central-1.amazonaws\.com
-52.92.72.2	s3-sa-east-1.amazonaws\.com
-54.231.236.6	s3-us-west-1.amazonaws\.com
-54.231.168.160	s3-us-west-2.amazonaws\.com
-177.72.244.194	sa-east-1.console\.aws\.amazon\.com
-176.32.114.59	us-west-1.console\.aws\.amazon\.com
-54.240.254.230	us-west-2.console\.aws\.amazon\.com
-52.216.80.48	github-cloud\.s3.amazonaws\.com
-54.231.48.40	github-com\.s3.amazonaws\.com
+52.219.0.4	s3-ap-northeast-1\.amazonaws\.com
+54.231.242.170	s3-ap-southeast-1\.amazonaws\.com
+54.231.251.21	s3-ap-southeast-2\.amazonaws\.com
+52.218.16.140	s3-eu-west-1\.amazonaws\.com
+54.231.193.37	s3-eu-central-1\.amazonaws\.com
+52.92.72.2	s3-sa-east-1\.amazonaws\.com
+54.231.236.6	s3-us-west-1\.amazonaws\.com
+54.231.168.160	s3-us-west-2\.amazonaws\.com
+177.72.244.194	sa-east-1\.console\.aws\.amazon\.com
+176.32.114.59	us-west-1\.console\.aws\.amazon\.com
+54.240.254.230	us-west-2\.console\.aws\.amazon\.com
+52.216.80.48	github-cloud\.s3\.amazonaws\.com
+54.231.48.40	github-com\.s3\.amazonaws\.com
 # Amazon AWS End
 
 # Apkpure Start
@@ -102,12 +102,7 @@
 45.58.69.38	dl\.dropbox\.com
 45.58.70.5	dl-web\.dropbox\.com
 45.58.69.37	dl\.dropboxusercontent\.com
-162.125.18.2	photos-1.dropbox\.com
-162.125.18.2	photos-2.dropbox\.com
-162.125.18.2	photos-3.dropbox\.com
-162.125.18.2	photos-4.dropbox\.com
-162.125.18.2	photos-5.dropbox\.com
-162.125.18.2	photos-6.dropbox\.com
+162.125.18.2	photos-[0-9]\.dropbox\.com
 54.192.213.118	status\.dropbox\.com
 54.192.213.118	marketing\.dropbox\.com
 54.192.213.118	blogs\.dropbox\.com
@@ -195,14 +190,14 @@
 64.233.188.125	talk\.google\.com
 64.233.188.125	talk\.l\.google\.com
 64.233.188.125	talkx\.l\.google\.com
-64.233.188.125	alt1.talk\.l\.google\.com
+64.233.188.125	alt1\.talk\.l\.google\.com
 # Google:Gtalk	End
 
 # Google:ghs Start
 64.233.188.121	ghs\.google\.com
-64.233.188.121	ghs46.google\.com
+64.233.188.121	ghs46\.google\.com
 64.233.188.121	ghs\.l\.google\.com
-64.233.188.121	ghs46.l\.google\.com
+64.233.188.121	ghs46\.l\.google\.com
 64.233.188.121	www\.nianticlabs\.com
 64.233.188.121	gsamplemaps\.googlepages\.com
 64.233.188.121	javascript-blocker\.toggleable\.com
@@ -222,7 +217,7 @@
 64.233.188.121	lists\.webmproject\.org
 64.233.188.121	www\.waveprotocol\.org
 64.233.188.121	www\.20thingsilearned\.com
-64.233.188.121	www\.creativelab5.com
+64.233.188.121	www\.creativelab5\.com
 64.233.188.121	blog\.webmproject\.org
 64.233.188.121	www\.agoogleaday\.com
 64.233.188.121	www\.gosetsuden\.jp
@@ -255,7 +250,7 @@
 
 # Google Start
 61.91.161.217	gcr\.io
-61.91.161.217	.*\..gcr\.io
+61.91.161.217	.*\.gcr\.io
 61.91.161.217   google\.com
 61.91.161.217   .*\.google\.com
 61.91.161.217	.*\.google\.cn
@@ -287,13 +282,14 @@
 61.91.161.217	.*appspot\.com
 61.91.161.217	googlecode\.com
 61.91.161.217	.*\.googlecode\.com
+108.177.97.82	tensorflow\.googlesource\.com
 61.91.161.217	.*\.googlesource\.com
 61.91.161.217	googlesource\.com
 61.91.161.217	android\.com
 61.91.161.217	.*\.android\.com
 216.239.34.21	material\.io
 61.91.161.217	.*\.googledrive\.com
-61.91.161.217	.*\.gvt0.com
+61.91.161.217	.*\.gvt0\.com
 61.91.161.217	domains\.google
 61.91.161.217	www\.registry\.google
 61.91.161.217	www\.domains\.google
@@ -375,15 +371,15 @@
 
 # Medium start
 104.16.120.127	medium\.com
-104.16.120.145	cdn-static-1.medium\.com
-104.16.120.145	cdn-images-1.medium\.com
-103.245.222.101	cdn-images-2.medium\.com
+104.16.120.145	cdn-static-1\.medium\.com
+104.16.120.145	cdn-images-1\.medium\.com
+103.245.222.101	cdn-images-2\.medium\.com
 # Medium end
 
 # MEGA Start
 31.216.147.135	eu\.api\.mega\.co\.nz
 154.53.224.130	eu\.static\.mega\.co\.nz
-117.18.237.188	g\.cdn1.mega\.co\.nz
+117.18.237.188	g\.cdn1\.mega\.co\.nz
 154.53.224.150	mega\.co\.nz
 154.53.224.166	mega\.nz
 31.216.147.130	w\.api\.mega\.co\.nz
@@ -447,37 +443,37 @@
 119.160.254.215	secure\.assets\.tumblr\.com
 54.182.6.6	secure\.static\.tumblr\.com
 66.6.44.4	media\.tumblr\.com
-216.115.100.125	24.media\.tumblr\.com
-192.229.237.98	30.media\.tumblr\.com
-216.115.100.126	31.media\.tumblr\.com
-54.239.176.79	32.media\.tumblr\.com
-216.115.100.126	33.media\.tumblr\.com
-54.230.158.13	36.media\.tumblr\.com
-216.115.100.126	37.media\.tumblr\.com
-216.115.100.126	38.media\.tumblr\.com
-209.197.3.20	39.media\.tumblr\.com
-192.229.237.98	40.media\.tumblr\.com
-209.197.3.20	41.media\.tumblr\.com
-192.229.237.185	42.media\.tumblr\.com
-209.197.3.20	43.media\.tumblr\.com
-192.229.237.98	44.media\.tumblr\.com
-209.197.3.20	45.media\.tumblr\.com
-192.229.237.98	46.media\.tumblr\.com
-54.192.234.133	47.media\.tumblr\.com
-209.197.3.20	48.media\.tumblr\.com
-192.229.237.98	49.media\.tumblr\.com
-54.192.234.244	50.media\.tumblr\.com
-54.230.142.156	65.media\.tumblr\.com
-192.229.237.98	66.media\.tumblr\.com
-209.197.3.20	67.media\.tumblr\.com
-216.115.100.126	68.media\.tumblr\.com
-216.115.100.125	90.media\.tumblr\.com
-128.127.159.1	94.media\.tumblr\.com
-23.2.16.8	95.media\.tumblr\.com
-54.239.176.79	96.media\.tumblr\.com
-192.229.237.98	97.media\.tumblr\.com
-151.101.76.249	98.media\.tumblr\.com
-209.197.3.20	99.media\.tumblr\.com
+216.115.100.125	24\.media\.tumblr\.com
+192.229.237.98	30\.media\.tumblr\.com
+216.115.100.126	31\.media\.tumblr\.com
+54.239.176.79	32\.media\.tumblr\.com
+216.115.100.126	33\.media\.tumblr\.com
+54.230.158.13	36\.media\.tumblr\.com
+216.115.100.126	37\.media\.tumblr\.com
+216.115.100.126	38\.media\.tumblr\.com
+209.197.3.20	39\.media\.tumblr\.com
+192.229.237.98	40\.media\.tumblr\.com
+209.197.3.20	41\.media\.tumblr\.com
+192.229.237.185	42\.media\.tumblr\.com
+209.197.3.20	43\.media\.tumblr\.com
+192.229.237.98	44\.media\.tumblr\.com
+209.197.3.20	45\.media\.tumblr\.com
+192.229.237.98	46\.media\.tumblr\.com
+54.192.234.133	47\.media\.tumblr\.com
+209.197.3.20	48\.media\.tumblr\.com
+192.229.237.98	49\.media\.tumblr\.com
+54.192.234.244	50\.media\.tumblr\.com
+54.230.142.156	65\.media\.tumblr\.com
+192.229.237.98	66\.media\.tumblr\.com
+209.197.3.20	67\.media\.tumblr\.com
+216.115.100.126	68\.media\.tumblr\.com
+216.115.100.125	90\.media\.tumblr\.com
+128.127.159.1	94\.media\.tumblr\.com
+23.2.16.8	95\.media\.tumblr\.com
+54.239.176.79	96\.media\.tumblr\.com
+192.229.237.98	97\.media\.tumblr\.com
+151.101.76.249	98\.media\.tumblr\.com
+209.197.3.20	99\.media\.tumblr\.com
 # Tumblr End
 
 # Twitter Start
@@ -512,26 +508,29 @@
 
 # Yahoo Start
 192.0.79.32	code\.flickr\.com
-121.101.144.112	api\.flickr\.com
-202.43.194.205	c5.ah\.yahoo\.com
+119.161.10.150	api\.flickr\.com
+202.43.194.205	c5\.ah\.yahoo\.com
 119.160.254.215	d\.yimg\.com
 106.10.136.195	de\.yahoo\.com
 119.160.254.215	e\.yimg\.com
 98.139.21.169	edit\.yahoo\.com
-63.250.200.72	bf1.farm[0-9].staticflickr\.com
-74.6.47.80	gq1.farm[0-9].staticflickr\.com
+63.250.200.72	bf1.farm[0-9]\.staticflickr\.com
+69.147.88.137	c[0-9]\.staticflickr\.com
+74.6.47.80	gq1.farm[0-9]\.staticflickr\.com
 106.10.137.23	.*\..staticflickr\.com
-69.147.76.173	flickr\.com
+183.177.81.73	flickr\.com
 106.10.137.175	geo\.query\.yahoo\.com
 217.12.13.41	geo\.yahoo\.com
 203.84.197.27	finance\.yahoo\.com
+106.10.199.112	heartbeat\.flickr\.com
+203.84.197.27	lh\.secure\.yahoo\.com
 121.101.144.112	hk\.finance\.yahoo\.com
 27.123.201.252	tw\.finance\.yahoo\.com
 119.160.254.215	h\.yimg\.com
 106.10.199.10	hk\.news\.yahoo\.com
 106.10.138.240	hk\.yahoo\.com
 106.10.136.146	hsrd\.yahoo\.com
-106.10.193.20	hk-mg61.mail\.yahoo\.com
+106.10.193.20	hk-mg61\.mail\.yahoo\.com
 119.160.254.215	l\.yimg\.com
 106.10.193.20	login\.yahoo\.com
 208.71.44.31	m\.flickr\.com
@@ -542,7 +541,7 @@
 216.39.54.12	overview\.mail\.yahoo\.com
 119.160.254.215	p\.yimg\.com
 216.115.100.106	s\.yimg\.com
-119.160.254.215	s1.yimg\.com
+119.160.254.215	s1\.yimg\.com
 106.10.193.20	sa\.edit\.yahoo\.com
 208.71.44.31	secure\.flickr\.com
 106.10.193.30	sp\.analytics\.yahoo\.com
@@ -550,13 +549,20 @@
 106.10.199.11	tw\.news\.yahoo\.com
 106.10.138.240	tw\.yahoo\.com
 121.101.144.116	up\.flickr\.com
-204.0.5.34	us\.js2.yimg\.com
+204.0.5.34	us\.js2\.yimg\.com
 106.10.138.240	us\.yahoo\.com
-183.177.81.75	www\.flickr\.com
+183.177.81.73	www\.flickr\.com
 106.10.138.240	www\.yahoo\.com
 98.138.253.109	yahoo\.com
 77.238.184.150	ying\.com
-183.177.81.75	downloadr\.flickr\.com
+183.177.81.73	downloadr\.flickr\.com
 50.18.192.250	duckduckgo-owned-server\.yahoo\.net
 116.214.11.98	tw\.mobi\.yahoo\.com
 # Yahoo End
+
+# Psiphon Start
+54.239.168.4	psiphon3\.com
+54.239.168.4	www\.psiphon3\.com
+104.20.39.14	psiphon\.ca
+104.20.39.14	www\.psiphon.ca
+# Psiphon End
