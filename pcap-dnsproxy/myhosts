@@ -250,6 +250,7 @@
 # Google:Made the code for girls End
 
 # Google Start
+61.91.161.217	www\.googleadservices\.com
 61.91.161.217	gcr\.io
 61.91.161.217	.*\.gcr\.io
 61.91.161.217   google\.com
@@ -517,7 +518,7 @@
 119.160.254.215	e\.yimg\.com
 98.139.21.169	edit\.yahoo\.com
 63.250.200.72	bf1.farm[0-9]\.staticflickr\.com
-69.147.88.137	c[0-9]\.staticflickr\.com
+203.84.216.55	c[0-9]\.staticflickr\.com
 74.6.47.80	gq1.farm[0-9]\.staticflickr\.com
 106.10.137.23	.*\..staticflickr\.com
 183.177.81.73	flickr\.com
