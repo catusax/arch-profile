@@ -1,9 +1,14 @@
 #使用perl -pi -e 's/(?<=[a-zA-Z])\./\\\./' myhosts替换.为\.
 #Last updated: 2017-02-03
 # Armorgames Start
-93.184.220.39 armorgames\.com
-93.184.220.39 .*\.armorgames\.com
+93.184.220.39	armorgames\.com
+93.184.220.39	.*\.armorgames\.com
 # Armorgames End
+
+# youtube
+110.4.24.178	googlevideo\.com
+110.4.24.178	.*\.googlevideo.com
+# youtube end
 
 # Amazon AWS Start
 54.239.31.69	aws\.amazon\.com
@@ -330,7 +335,6 @@
 61.91.161.217	youtu\.be
 61.91.161.217	.*\.ytimg\.com
 61.91.161.217	.*\.youtube\.co
-61.91.161.217	.*\.googlevideo\.com
 
 # Google:others Start
 61.91.161.217	google\..*

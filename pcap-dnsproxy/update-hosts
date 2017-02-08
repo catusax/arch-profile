@@ -19,4 +19,4 @@ grep ^[^#] myhosts >> Hosts.conf
 grep ^[^#] adhosts >> Hosts.conf
 rm adhosts
 #do not output lines starts with #
-sudo cp Hosts.conf /etc/pcap-dnsproxy/Hosts.conf
+sudo cp Hosts.conf /usr/share/pcap-dnsproxy/Hosts.conf
