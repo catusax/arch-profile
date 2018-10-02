@@ -1,0 +1,9 @@
+shadowsocks:
+  image: shadowsocks/shadowsocks-libev:edge
+  ports:
+    - "17825:8388/tcp"
+    - "17825:8388/udp"
+  environment:
+    - METHOD=chacha20-ietf-poly1305
+    - PASSWORD=passwordrc136
+  restart: always
