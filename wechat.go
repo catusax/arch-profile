@@ -83,7 +83,7 @@ func hello(rw http.ResponseWriter, req *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", hello)
+	http.HandleFunc("/wechat", hello)
 	err := http.ListenAndServe(":80", nil)
 	if err != nil {
 		fmt.Printf("start server error , err=%v", err)
