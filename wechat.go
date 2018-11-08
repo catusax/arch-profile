@@ -27,7 +27,7 @@ func tuling(info string,userid string) string {
     post.Info = info
     post.Userid = userid
     msg,_ := json.Marshal(post)
-    //fmt.Println(string(msg))
+    fmt.Println(string(msg))
 
     res, err := http.Post("http://www.tuling123.com/openapi/api", "application/json;charset=utf-8", bytes.NewBuffer(msg))
     if err != nil {
@@ -43,8 +43,8 @@ func tuling(info string,userid string) string {
 	var ans Answer
 	err = json.Unmarshal([]byte(content), &ans)
 
-	//fmt.Println(string(content))
-	//fmt.Println(ans.Text,err)
+	fmt.Println(string(content))
+	fmt.Println(ans.Text,err)
 	return ans.Text
 }
 
@@ -53,7 +53,7 @@ func hello(rw http.ResponseWriter, req *http.Request) {
 	//配置微信参数
 	config := &wechat.Config{
 		AppID:          "wxe68ebb23be0f4858",
-		AppSecret:      "c9b83a2369a9dead7db1c0cdfcceb2fc",
+		AppSecret:      "46df5b9fa7ad91e7df528f87eb2e4e18",
 		Token:          "coolrc",
 		EncodingAESKey: "8OAbl97JhEP2SN3pUpkFTloyC5o6OQ0WTrMJfvz92XM",
 	}
@@ -79,7 +79,10 @@ func hello(rw http.ResponseWriter, req *http.Request) {
 		return
 	}
 	//发送回复的消息
-	server.Send()
+	err = server.Send()
+    if err != nil {     
+        fmt.Println(err)
+    } 
 }
 
 func main() {
