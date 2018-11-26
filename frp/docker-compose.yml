@@ -1,9 +1,9 @@
-iversion: '2'
+version: '2'
 
 services:
-  pictshare:
+  frpsrv:
     restart: always
-    image: waylybaye/frp:latest
+    image: coolrc/frp:latest
     volumes:
     - ./frps.ini:/frps.ini
     ports:
