@@ -26,3 +26,9 @@ sudo npm config set registry https://registry.npm.taobao.org
 sudo npm install -g commitizen
 echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 ```
+
+# go test
+
+```
+go get -u -v github.com/cweill/gotests/...
+```
