@@ -29,6 +29,12 @@ sudo npm install -g cz-emoji
 echo '{ "path": "cz-emoji" }' > ~/.czrc
 ```
 
+# tldr
+
+```
+sudo npm install -g tldr
+```
+
 # go test
 
 ```
