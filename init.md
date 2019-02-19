@@ -1,3 +1,8 @@
+# fonts
+
+[emoji(twemoji-color)](https://github.com/eosrei/twemoji-color-font#install-on-ubuntu-linux)
+[code(hack)](https://github.com/source-foundry/Hack#quick-installation)
+
 # zsh
 
 ```
