@@ -26,10 +26,18 @@ hi Visual cterm=inverse ctermbg=235 gui=inverse guibg=#262626
 # git cz
 
 ```
-sudo apt install npm
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt install nodejs
 sudo npm config set registry https://registry.npm.taobao.org
 sudo npm install -g commitizen
-echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
+sudo npm install -g cz-emoji
+echo '{ "path": "cz-emoji" }' > ~/.czrc
+```
+
+# tldr
+
+```
+sudo npm install -g tldr
 ```
 
 # go test
