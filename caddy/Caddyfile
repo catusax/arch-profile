@@ -1,0 +1,10 @@
+coolrc.top, www.coolrc.top {
+    root /src/coolrc136.github.io
+    gzip
+    git {
+        repo https://github.com/coolrc136/coolrc136.github.io.git
+        path /src/coolrc136.github.io
+        hook /webhook password
+    }
+    tls qq1782536964@live.com
+}
