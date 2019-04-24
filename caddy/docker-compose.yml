@@ -8,5 +8,6 @@ services:
       - 443:443
     volumes:
         - ./Caddyfile:/etc/Caddyfile
+        - ./.caddy:/root/.caddy
     environment:
         ACME_AGREE: "true"
