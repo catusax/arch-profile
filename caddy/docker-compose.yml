@@ -6,8 +6,11 @@ services:
     ports:
       - 80:80
       - 443:443
+      - 80:80/udp
+      - 443:443/udp
     volumes:
         - ./Caddyfile:/etc/Caddyfile
         - ./.caddy:/root/.caddy
     environment:
         ACME_AGREE: "true"
+    command: ["--quic", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
