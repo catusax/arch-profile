@@ -1,10 +1,13 @@
-coolrc.top, www.coolrc.top {
+coolrc.me, www.coolrc.me {
     root /src/coolrc136.github.io
     gzip
     git {
         repo https://github.com/coolrc136/coolrc136.github.io.git
         path /src/coolrc136.github.io
         hook /webhook password
+        hook_type github
+        clone_args --recursive
+        pull_args --allow-unrelated-histories
     }
     tls qq1782536964@live.com
 }
