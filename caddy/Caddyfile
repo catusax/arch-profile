@@ -11,3 +11,9 @@ coolrc.me, www.coolrc.me {
     }
     tls qq1782536964@live.com
 }
+
+paste.coolrc.me {
+    gzip
+    proxy / http://privatebin
+    tls qq1782536964@live.com
+}

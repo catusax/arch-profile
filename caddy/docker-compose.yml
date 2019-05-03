@@ -14,3 +14,7 @@ services:
     environment:
         ACME_AGREE: "true"
     command: ["--quic", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
+
+  privatebin:
+    image: privatebin/nginx-fpm-alpine
+
