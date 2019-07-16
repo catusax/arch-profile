@@ -2,13 +2,15 @@ coolrc.me, www.coolrc.me {
     root /src/coolrc136.github.io
     gzip
     git {
-        repo git@github.com:coolrc136/coolrc136.github.io.git
-        key /root/id_rsa
+        repo https://github.com/coolrc136/coolrc136.github.io.git
+        branch master
         path /src/coolrc136.github.io
         hook /webhook password
         hook_type github
         clone_args --recursive
         pull_args --allow-unrelated-histories
+        then git config --global user.name coolrc
+        then git config --global user.email qq1782536964@live.com
     }
     tls qq1782536964@live.com
 }
