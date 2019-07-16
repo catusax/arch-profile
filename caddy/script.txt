@@ -1,0 +1,2 @@
+git config --global user.name coolrc
+git config --global user.email qq1782536964@live.com
