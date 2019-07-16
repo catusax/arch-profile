@@ -2,7 +2,8 @@ coolrc.me, www.coolrc.me {
     root /src/coolrc136.github.io
     gzip
     git {
-        repo https://github.com/coolrc136/coolrc136.github.io.git
+        repo git@github.com:coolrc136/coolrc136.github.io.git
+        key /root/id_rsa
         path /src/coolrc136.github.io
         hook /webhook password
         hook_type github

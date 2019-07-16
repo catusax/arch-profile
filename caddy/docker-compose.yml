@@ -11,6 +11,7 @@ services:
     volumes:
         - ./Caddyfile:/etc/Caddyfile
         - ./.caddy:/root/.caddy
+        - /root/.ssh/id_rsa:/root/id_rsa
     environment:
         ACME_AGREE: "true"
     command: ["--quic", "--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=true"]
