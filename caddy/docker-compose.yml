@@ -18,4 +18,9 @@ services:
 
   privatebin:
     image: privatebin/nginx-fpm-alpine
+    
+  milos:
+    image: coolrc/milos
+    volumes: 
+        - ./milos:/Milos/conf
 

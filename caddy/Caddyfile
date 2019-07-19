@@ -20,3 +20,9 @@ paste.coolrc.me {
     proxy / http://privatebin
     tls qq1782536964@live.com
 }
+
+milos.coolrc.me {
+    gzip
+    proxy / http://milos:8080
+    tls qq1782536964@live.com
+}
