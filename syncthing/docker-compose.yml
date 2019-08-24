@@ -1,0 +1,11 @@
+version: '2'
+services:
+  syncthing-server:
+    container_name: relay-discovery
+    image: t4skforce/syncthing-relay-discovery
+    environment:
+      - RATE_SESSION=1048576
+    ports:
+      - "22067:22067"
+      - "22026:22026"
+    restart: always
