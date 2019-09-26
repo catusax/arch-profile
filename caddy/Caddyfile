@@ -1,4 +1,4 @@
-coolrc.me, www.coolrc.top {
+coolrc.top, www.coolrc.top {
     root /src/coolrc136.github.io
     gzip
     git {
