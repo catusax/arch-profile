@@ -1,4 +1,4 @@
-coolrc.me, www.coolrc.me {
+coolrc.me, www.coolrc.top {
     root /src/coolrc136.github.io
     gzip
     git {
@@ -15,13 +15,13 @@ coolrc.me, www.coolrc.me {
     tls qq1782536964@live.com
 }
 
-paste.coolrc.me {
+paste.coolrc.top {
     gzip
     proxy / http://privatebin
     tls qq1782536964@live.com
 }
 
-milos.coolrc.me {
+milos.coolrc.top {
     gzip
     proxy / http://milos:8080
     tls qq1782536964@live.com
