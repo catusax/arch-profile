@@ -1,0 +1,8 @@
+version: '3'
+services:
+  subconverter:
+    image: coolrc/subconverter
+    restart: always
+    ports:
+      - "25500:25500"
+    container_name: subconverter
