@@ -3,8 +3,8 @@ services:
   syncthing-server:
     container_name: relay-discovery
     image: t4skforce/syncthing-relay-discovery
-    environment:
-      - RATE_SESSION=1048576
+    volumes:
+      - ./certs:/home/syncthing/certs
     ports:
       - "22067:22067"
       - "22026:22026"
