@@ -3,12 +3,12 @@ version: '2'
 services:
   frpsrv:
     restart: always
-    image: coolrc/frp:latest
+    image: snowdreamtech/frps
     volumes:
-    - ./frps.ini:/frps.ini
+      - ./frps.ini:/etc/frp/frps.ini
     ports:
-    - "3389:3389"
-    - "7000:7000"
-    - "7500:7500"
-    - "220:220"
-    - "5901:5901"
+      - "3389:3389"
+      - "7000:7000"
+      - "7500:7500"
+      - "25565:25565"
+      #    network_mode: "host"
