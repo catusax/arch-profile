@@ -1,8 +1,10 @@
 version: '3'
 services:
   subconverter:
-    image: coolrc/subconverter
+    image: tindy2013/subconverter
     restart: always
     ports:
       - "25500:25500"
     container_name: subconverter
+    volumes:
+      - ./myrule.ini:/base/config/myrule.ini
