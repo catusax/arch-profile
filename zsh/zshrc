@@ -13,6 +13,8 @@ export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export GOPROXY=https://goproxy.cn
 
+export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
+
 ZSH_THEME="ys"
 # 命令建议
 plugins=(git zsh-autosuggestions zsh-completions zsh-syntax-highlighting)
@@ -68,10 +70,10 @@ source $ZSH/oh-my-zsh.sh
 
 export VISUAL="vim"
 
-export GTK_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"
-export QT_IM_MODULE=fcitx
-export QT4_IM_MODULE=fcitx
+#export GTK_IM_MODULE=fcitx
+#export XMODIFIERS="@im=fcitx"
+#export QT_IM_MODULE=fcitx
+#export QT4_IM_MODULE=fcitx
 
 alias lsa='ls -a --color=auto'
 alias grep='grep --color=auto'
