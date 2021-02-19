@@ -1,3 +1,6 @@
 oneindex/cache
 caddy/.caddy
 caddy/milos
+
+terraria/data/*.log
+terraria/data/ServerLog.txt
