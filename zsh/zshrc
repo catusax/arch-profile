@@ -12,6 +12,8 @@ export GOROOT="/usr/lib/go"
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export GOPROXY=https://goproxy.cn
+export DENO_INSTALL="/root/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
 
 export NODE_MIRROR=https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/
 
@@ -78,7 +80,7 @@ export VISUAL="vim"
 alias lsa='ls -a --color=auto'
 alias grep='grep --color=auto'
 alias vi='vim'
-screenfetch
+#screenfetch
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
