@@ -6,11 +6,11 @@ services:
     image: snowdreamtech/frps
     volumes:
       - ./frps.ini:/etc/frp/frps.ini
-    ports:
-      - "3389:3389"
-      - "7000:7000"
-      - "7500:7500"
-        #      - "25565:25565"
-      - "220:220"
-      - "19132:19132/udp"
-      #    network_mode: "host"
+        #    ports:
+        # - "3389:3389"
+        # - "7000:7000"
+        # - "7500:7500"
+        #- "25565:25565"
+        # - "220:220"
+        #- "19132:19132/udp"
+    network_mode: "host"

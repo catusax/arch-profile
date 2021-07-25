@@ -32,6 +32,10 @@ sudo npm config set registry https://registry.npm.taobao.org
 sudo npm install -g commitizen
 sudo npm install -g cz-emoji
 echo '{ "path": "cz-emoji" }' > ~/.czrc
+# 或者
+npm install -g commitizen conventional-changelog conventional-changelog-cli cz-customizable
+echo '{ "path": "cz-customizable" }' > ~/.czrc
+wget https://raw.githubusercontent.com/nielsgl/conventional-changelog-emoji/master/.cz-config.js -O ~/.cz-config.js
 ```
 
 # tldr
