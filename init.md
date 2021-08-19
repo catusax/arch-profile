@@ -26,26 +26,14 @@ bash n lts
 # git cz
 
 ```
-curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
-sudo apt install nodejs
 sudo npm config set registry https://registry.npm.taobao.org
-sudo npm install -g commitizen
-sudo npm install -g cz-emoji
+sudo npm install -g commitizen conventional-changelog-cli conventional-changelog-cz-emoji cz-emoji
 echo '{ "path": "cz-emoji" }' > ~/.czrc
-# 或者
-npm install -g commitizen conventional-changelog conventional-changelog-cli cz-customizable
-echo '{ "path": "cz-customizable" }' > ~/.czrc
-wget https://raw.githubusercontent.com/nielsgl/conventional-changelog-emoji/master/.cz-config.js -O ~/.cz-config.js
+conventional-changelog -i CHANGELOG.md -s -n node_modules/conventional-changelog-cz-emoji
 ```
 
 # tldr
 
 ```
 sudo npm install -g tldr
-```
-
-# go test
-
-```
-go get -u -v github.com/cweill/gotests/...
 ```
